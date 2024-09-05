@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header css */
+header{
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 5vw;
+    background-color: white;
+}
+header img{
+    cursor: pointer;
+    height: 8vh;
+    width: auto;
+}
+nav a{
+    font-family: sans-serif;
+    margin: 0 5px;
+    padding: 2px;
+    text-decoration: none;
+    color: #198dc5;
+    font-weight: 600;
+}
+nav a:hover{
+    color: #04537a;
+}
+/* header css */
+
+/* main css */
+main{
+    height: 90vh;
+}
+.home,.about,.services,.contact{
+    min-height: 80vh;
+    display: flex; justify-content: center;
+    align-items: center;
+}
+.home span{
+    color: #198dc5;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+.contact form input, .contact form textarea{
+    padding: 8px;
+    width: 80%;
+    margin: 5px;
+    border-radius: 3px;
+    border: 1px solid #198dc5;
+}
+.contact form input:focus, .contact form textarea:focus{
+outline: 1px solid #198dc5;
+}
+.contact form input[type="submit"]{
+    background-color: #198dc5;
+}
+.contact form h1{
+    color: #198dc5;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.contact form input[type="submit"]:hover{
+    background-color: #04537a;
+}
+/* main css */
+
+/* footer css */
+.footer{
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p span{
+    color: #198dc5;
+    font-weight: 600;
+}
+/* footer css */
